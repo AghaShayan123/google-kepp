@@ -26,7 +26,7 @@ namespace Google_Keep
             try
             {
                 StringBuilder queryaddress = new StringBuilder();
-                queryaddress.Append("https://keep.google.com/u/0/");
+                queryaddress.Append("https://keep.google.com");
                 webBrowser1.Navigate(queryaddress.ToString());
             }
             catch (Exception ex)
